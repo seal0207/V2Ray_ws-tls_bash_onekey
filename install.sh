@@ -628,7 +628,7 @@ vmess_qr_config_tls_ws(){
     cat > $v2ray_qr_config_file <<-EOF
 {
   "v": "2",
-  "ps": "Seak-${domain}",
+  "ps": "Seal-${domain}",
   "add": "${domain}",
   "port": "${port}",
   "id": "${UUID}",
